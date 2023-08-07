@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/fernando5351/GymApi/issues"
   },
-  "homepage": "https://github.com/fernando5351/GymApi#readme"
+  "homepage": "https://github.com/fernando5351/GymApi#readme",
+  "dependencies": {
+    "sequelize": "^6.32.1"
+  }
 }
