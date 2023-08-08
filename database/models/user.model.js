@@ -42,7 +42,7 @@ const UserModel = {
     createdAt: {
         field:'created_at',
         type: DataTypes.DATE,
-        defaultValue: Sequelize.now(),
+        defaultValue: Sequelize.NOW,
         allowNull: false
     }
 }
