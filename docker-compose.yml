@@ -1,0 +1,13 @@
+version: '3.1'
+
+services: 
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_DB=gym
+      - POSTGRES_USER=schiffer
+      - POSTGRES_PASSWORD=kira002
+    volumes:
+      - ~/postgres_data:/var/lib/postgresql/data
+    ports:
+      - 5432:80
