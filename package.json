@@ -8,6 +8,9 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "migration-generate": "sequelize-cli migration:generate --name",
+    "migration-run": "sequelize-cli db:migrate",
+    "migration-rollback": "sequelize-cli db:migrate:undo",
+    "migration-delete": "sequelize-cli db:migrate:undo:all"
   },
   "repository": {
     "type": "git",
