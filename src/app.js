@@ -6,6 +6,7 @@ const routesManagement = require('./routes');
 const app = express();
 
 app.set('port', port);
+app.use(express.json());
 
 routesManagement(app);
 
