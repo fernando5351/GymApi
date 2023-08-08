@@ -5,3 +5,5 @@ function routesManagement(app) {
     app.use('/api/v1', router);
     
 }
+
+module.exports=routesManagement;
